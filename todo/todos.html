@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TO-DOs</title>
+    <link rel="stylesheet" type="text/css"  href="../css/style.css" />
+
+</head>
+
+<body>
+    <a href="../index.html">Voltar</a>
+    <table id="tabela" class="styled-table">
+        <tr>
+            <td>UserId</td>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Completed</td>
+        </tr>
+    </table>
+    <div id="paginacao"></div>
+
+    <script src="../js/main.js"></script>
+    <script>     
+        var urlBase = "https://jsonplaceholder.typicode.com/todos?_page=1&_limit=10"
+        construir(urlBase);
+    </script>
+
+</body>
+
+</html>
